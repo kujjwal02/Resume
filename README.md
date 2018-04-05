@@ -1,21 +1,19 @@
-# simple-resume-cv
+# Resume
 
-Template for a simple resume or curriculum vitae (CV), in XeLaTeX.
+My resume or curriculum vitae (CV), in XeLaTeX.
 
-**Website:**<br>
+**Fork of:**<br>
 https://github.com/zachscrivena/simple-resume-cv
 
-**Lead author:**<br>
-Zach Scrivena (zachscrivena@gmail.com)
+**Website:**<br>
+https://github.com/kujjwal02/
+
+**author:**<br>
+Ujjwal Kumar (zachscrivena@gmail.com)
 
 **Compiled sample document:**<br>
-[CV.pdf](https://raw.githubusercontent.com/zachscrivena/simple-resume-cv/master/CV.pdf)
+[Resume.pdf](https://raw.githubusercontent.com/kujjwal02/Resume/master/resume.pdf)
 
-**Sample pages (click to enlarge):**
-
-<img height="500" src="https://raw.githubusercontent.com/zachscrivena/simple-resume-cv/master/Miscellaneous/CV-01.png" alt="CV-01">
-<img height="500" src="https://raw.githubusercontent.com/zachscrivena/simple-resume-cv/master/Miscellaneous/CV-02.png" alt="CV-02">
-<img height="500" src="https://raw.githubusercontent.com/zachscrivena/simple-resume-cv/master/Miscellaneous/CV-03.png" alt="CV-03">
 
 ## Main Features
 

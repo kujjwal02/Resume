@@ -1,0 +1,287 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% -*- coding: UTF-8; -*-
+% vim: set fenc=utf-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% See "README.md" for instructions on compiling this document.
+
+\documentclass[letterpaper,MMMyyyy,nonstopmode]{simpleresumecv}
+    % Class options:
+    % a4paper, letterpaper, nonstopmode, draftmode
+    % MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %% PREAMBLE.
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    
+    % CV Info (to be customized).
+    \newcommand{\CVAuthor}{Ujjwal Kumar}
+    \newcommand{\CVTitle}{Ujjwal Kumar's CV for Amazon Data Science Internship}
+    \newcommand{\CVNote}{CV compiled on {\today} for Amazon Data Science Internship}
+    \newcommand{\CVWebpage}{https://github.com/kujjwal02}
+    
+    % PDF settings and properties.
+    \hypersetup{
+    pdftitle={\CVTitle},
+    pdfauthor={\CVAuthor},
+    pdfsubject={\CVWebpage},
+    pdfcreator={XeLaTeX},
+    pdfproducer={},
+    pdfkeywords={},
+    unicode=true,
+    bookmarks=true,
+    bookmarksopen=true,
+    pdfstartview=FitH,
+    pdfpagelayout=OneColumn,
+    pdfpagemode=UseOutlines,
+    hidelinks,
+    breaklinks}
+    
+    % Shorthand.
+    \newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+    \newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %% ACTUAL DOCUMENT.
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \begin{document}
+    
+    %%%%%%%%%%%%%%%
+    % TITLE BLOCK %
+    %%%%%%%%%%%%%%%
+    
+    \Title{\CVAuthor}
+    
+    \begin{SubTitle}
+        \href{https://www.google.com/maps/place/Press+Colony,+Anand+Nagar,+Bhopal,+Madhya+Pradesh,+India}
+            {Press Colony, Anand Nagar, Bhopal, Madhya Pradesh, India}
+
+        \par
+
+        \href{mailto:kujjwal02@gmail.com}
+            {kujjwal02@gmail.com}
+        \,\SubBulletSymbol\,
+        \href{tel:+918358956403}
+            {+91\,83 58\,956403}
+        \,\SubBulletSymbol\,
+        \href{\CVWebpage}
+        {\url{\CVWebpage}}
+
+    \end{SubTitle}
+    
+    \begin{Body}
+    
+    
+    %%%%%%%%%%%%%%%
+    %% EDUCATION %%
+    %%%%%%%%%%%%%%%
+    
+    \Section
+    {Education}
+    {Education}
+    {PDF:Education}
+    
+        \Entry
+            \href{http://http://www.lnctgroup.in/LNCT}
+            {\textbf{Lakshmi Narain College of Technology}},
+            Bhopal, Madhya Pradesh, India
+            
+            \Gap
+
+            \BulletItem
+                B.E in 
+                \href{http://www.lnctgroup.in/Bachelor-Of-Engineering/Computer-Science-Engineering}
+                    {Computer Science \& Engineering}
+                \hfill
+                \DatestampYMD{2014}{05}{15} -- Present
+        
+        
+        \BigGap
+
+        \Entry
+            \href{http://http://kvkankarbaghpatna.org.in/}
+            {\textbf{Kendriya Vidhyalaya}},
+            Patna, Bihar, India
+            
+            \Gap
+
+            \BulletItem
+                \href{http://cbse.nic.in/newsite/index.html}
+                    {AISSCE}
+                    in Science
+                \hfill
+                \DatestampYMD{2013}{04}{15}
+                
+                \SubBulletItem
+                    Grade: 89.6 \%
+        
+        \BigGap
+        
+        \Entry
+            \textbf{MOOCS}
+            
+            \BulletItem
+                Applied Machine Learning at \href{https://www.appliedaicourse.com/}{Appliedaicourse.com}
+                \hfill
+                \DatestampYMD{2018}{02}{10} -- Present
+            
+            \Gap
+            
+            \BulletItem
+                Machine Learning by Stanford University at \href{https://coursera.org}{Coursera.org}
+                \SubBulletItem
+                Grade: 96.1 \%
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%
+    %% Skills %%
+    %%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \Section
+    {Skills}
+    {Skills}
+    {PDF:Skills}
+    
+    
+        \Entry
+            \textbf{Programming Languages:}
+            Python, Javascript, SQL, HTML, CSS, C++ (Basic), Java (Basic)
+            
+        \BigGap
+            
+        \Entry
+            \textbf{Machine Learning Algorithms:}
+            K Nearest Neighbours, Naive Bayes, Logistic Regression, 
+            Linear Regression, Support Vector Machines, Decision Trees, 
+            Random Forest, Gradient Boosting Decision Trees, K-means, 
+            Hierarchical Clustering, DBSCAN
+        
+        
+        \BigGap
+        
+        
+        \Entry
+            \textbf{Software Packages and Frameworks}
+            \SubBulletItem
+                Angular
+            \SubBulletItem
+                Octave
+            \SubBulletItem
+                MySQL
+            \SubBulletItem
+                Latex
+        
+        
+        \BigGap
+        
+        \Entry
+            \textbf{Platforms}
+            \SubBulletItem
+                Windows
+            \SubBulletItem
+                Linux
+    
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%
+    %% Projects %%
+    %%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \Section
+    {Projects}
+    {Projects}
+    {PDF:Projects}
+    
+        \Entry
+            \textbf{Cab Pickup Density Prediction at a Particular Time and Location}
+            [\href{http://bit.ly/PickupDensity}{Notebook}]
+
+            \Gap
+
+            \Item
+                \textbf{Description:}
+                Cleaned the data, Explored the features (EDA), 
+                removed Outliers and built and compare machine learning models 
+                like  linear regression, random forest, GBDT and Time Series 
+                based models like simple, weighted and exponential moving average 
+                models to predict the density of pickup requests at a 
+                particular location and time in New York City based on historical data.
+            
+            \Gap
+
+            \Item
+                \textbf{Skills:}
+                Python
+        
+        
+        \BigGap
+        
+        \Entry
+            \textbf{Sentiment Classifier on Amazon Fine Food Reviews}
+            [\href{http://bit.ly/AmznSentimentClassifier}{Notebook}]
+
+            \Gap
+
+            \Item
+                \textbf{Description:}
+                Cleaned the noise and inconsistencies in the data, 
+                Performed NLP tasks to clean the text and 
+                Built and compare classification machine learning models 
+                such as K-NN, Logistic Regression, Random Forest, GBDT, etc  
+                on Bag of Words, Tf-Idf, Avg-word2vec and Tf-Idf-word2vec 
+                features vectors of text.
+            
+            \Gap
+
+            \Item
+                \textbf{Skills:}
+                Python, SQL
+         
+        
+    %%%%%%%%%%%%%%%
+    %% LANGUAGES %%
+    %%%%%%%%%%%%%%%
+    
+    \Section
+    {Languages}
+    {Languages}
+    {PDF:Languages}
+    
+        \BulletItem
+        English:  Fluent (speaking, reading, writing).
+        
+        
+        \Gap
+        \BulletItem
+        Hindi: Native language.
+    
+    %%%%%%%%%%%%%%%
+    %% INTERESTS %%
+    %%%%%%%%%%%%%%%
+    
+    \Section
+    {Interests}
+    {Interests}
+    {PDF:Interests}
+    
+        \Entry
+        \BulletItem
+            Discussing and debating on Machine Learning concepts
+        \BulletItem
+            Playing Computer Games
+        \BulletItem
+            Watching Anime
+        \BulletItem
+            Fixing broken electronic items.
+    
+    \end{Body}
+    
+    \end{document}
+    
