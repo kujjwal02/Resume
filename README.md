@@ -15,14 +15,6 @@ Ujjwal Kumar (kujjwal02@gmail.com)
 [Resume.pdf](https://raw.githubusercontent.com/kujjwal02/Resume/master/resume.pdf)
 
 
-## Main Features
-
-- Simple template that can be further customized or extended.
-- Template document contains numerous examples.
-- Direct support for TrueType (TTF) and OpenType (OTF) fonts.
-- Direct support for multilingual Unicode characters, with the appropriate fonts.
-- Hyperlinks can be included in generated PDF.
-
 ## Overview
 
 The main XeLaTeX source file is `resume.tex`; the compiled document is `resume.pdf`.
